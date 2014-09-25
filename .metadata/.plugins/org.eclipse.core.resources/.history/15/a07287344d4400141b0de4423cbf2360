@@ -1,0 +1,25 @@
+package ca.ualberta.cs.lonelytwitter;
+
+public class Summary {
+
+	private int avgNumber;
+	
+	private int avgLength;
+
+	public int getAvgNumber() {
+		return avgNumber;
+	}
+
+	public void setAvgNumber(int avgNumber) {
+		this.avgNumber = avgNumber;
+	}
+
+	public int getAvgLength() {
+		return avgLength;
+	}
+
+	public void setAvgLength(int avgLength) {
+		this.avgLength = avgLength;
+	}
+	
+}

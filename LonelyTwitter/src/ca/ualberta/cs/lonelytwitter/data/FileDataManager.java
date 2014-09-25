@@ -21,6 +21,7 @@ public class FileDataManager implements IDataManager{
 		this.ctx = ctx;
 	}
 	
+	@SuppressWarnings("unchecked")
 	public ArrayList<Tweet> loadTweets() {
 		ArrayList<Tweet> lts = new ArrayList<Tweet>();
 
