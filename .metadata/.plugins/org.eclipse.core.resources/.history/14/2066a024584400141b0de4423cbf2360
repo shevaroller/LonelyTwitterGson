@@ -82,7 +82,7 @@ public class LonelyTwitterActivity extends Activity {
 		Intent intent = new Intent(LonelyTwitterActivity.this, SummayActivity.class);
 	    //intent.putExtra(EXTRA_MESSAGE, message);
 	    startActivity(intent);
-		Toast.makeText(this, "Number of tweets: "+summaryNum+"\nAverage Length: "+summaryLen, Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "Number of tweets: "+summaryNum+"\nAverage Length: "+summaryLen, 10).show();
 	}
 	
 	private void createSummary() {
